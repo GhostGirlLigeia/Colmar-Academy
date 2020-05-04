@@ -1,18 +1,10 @@
 .banner {
     background-color: gray;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
     color: black;
     margin: 64px;
-    text-align: center;
     padding: 100px 0px;
-
-body {
-  background-color: white; 
-  text-align: center; 
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header--main {
-    font-weight: normal;
-    font-size: 32px;
-    color: black;
 }
