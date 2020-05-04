@@ -21,6 +21,8 @@ h1 {
     padding: 64px, 32px;
 }
 
+#more {display: none;}
+
 body {
     background-color: white;
     text-align: center;
@@ -43,7 +45,27 @@ body {
     text-align: right;
 }
 
-.p {
+.paragraph {
     font-size: 16px;
     color: blue;
+}
+
+#orientation {
+
+}
+
+#campus {
+
+}
+
+#guest {
+
+}
+
+#learning {
+
+}
+
+#thesis {
+
 }
