@@ -1,49 +1,63 @@
-h1, 
-h2, 
-h3, 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* CSS ruleset */
 }
 
+body {
+    background: white;    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+    }
+
+h1
+h2
+h3
+p {
+  font-family: Arial, Helvetica, sans-serif;  
+  font-weight: normal;
+}
+
+.float-img {
+    float: left;
+    clear: right;
+    margin-left: 10px; 
+    margin-bottom: 5px;
+    border: solid dimgray 1px;
+    padding: 2px;
+}
+    
 
 .bold {
     font-weight: bold;
 }
 
-.id {
 
+.id {
+    background-color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
 }
 
+
 .banner {
-    background-color: gray;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: normal;
-    color: black;
-    margin-left: 24px;
-    margin-right: 32px;
-    padding: 64px, 32px;
-}
+    color: white;
+  }
 
-#toggle {
-    color: blue;
-    display: none;}
-
-body {
-    background-color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .button {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    background-color: darkgray;
-    color: white;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 16px; 
+    background-color: dimgray;
+    color: black;   
 }
 
 .header--main {
@@ -51,30 +65,36 @@ body {
     font-size: 40;
     font-weight: normal;
     text-align: right;
+    
 }
 
-
 #orientation {
-
+    color: blue;
+    
 }
 
 #campus {
+   color: blue;
+   
 
 }
+
 
 #guest {
-
+    color: blue;
+    
 }
 
-#learning {
-
-}
-
-#thesis {
-
+.link--cta {
+    font-size: 16px;
+    color: black;
+    float: right;
+    
 }
 
 .footer--copyright {
     font-size: 21px;
     color: gray;
     text-align: right;
+    
+}
