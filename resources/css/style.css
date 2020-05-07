@@ -2,99 +2,127 @@
     /* CSS ruleset */
 }
 
-body {
-    background: white;    
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Space+Mono:wght@400;700&display=swap'); 
+*
+{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+
+}
+
+
+.link--cta {
+    font-size: 16px;
+    color: black;
+    float: right;  
+}
+
+
+#social_icons {
+    padding: .5em;
+    line-height: 2.7;
+    font-size: 1.2em;
+    padding: 64px;
+}
+
+.topmenu li { 
+    display:inline-block;
+}
+
+.banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 82.8%;
+}
+
+.Learn {
+    text-align: center;
+}
+.button {
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black; 
+    margin-right: 8px;
+    margin-left: 8px;
+}
+   
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: lightgray;    
+} 
+ .container {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ .container .card {
+    position: relative;
+    max-width: 450px;
+    background: dimgray;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+ .container .card .imgBx {
+    max-width: 150px;
+    flex: 0 0 15px;
+}
+ .container .card .imgBx img {
+    max-width: 100%;
+}
+.container .card .content {
+    margin-left: 20px;
+}
+ @media (max-width: 991px) {
+    .container {
+        flex-direction: column;
+
     }
-
-h1
-h2
-h3
-p {
-  font-family: Arial, Helvetica, sans-serif;  
-  font-weight: normal;
+}
+ @media (max-width: 768px) {
+    .container {
+        flex-direction: column;    
+    }
+    .container .card .imgBx {
+        max-width: 100%;
+    }
+    .container .card .content {
+        margin-left: 0px;
+    }
 }
 
-.float-img {
-    float: left;
-    clear: right;
-    margin-left: 10px; 
-    margin-bottom: 5px;
-    border: solid dimgray 1px;
-    padding: 2px;
-}
-    
 
 .bold {
     font-weight: bold;
 }
 
 
-.id {
-    background-color: white;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    color: black;
-}
-
-
-.banner {
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    font-weight: normal;
-    color: white;
-  }
-
-
-.button {
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px; 
-    background-color: dimgray;
-    color: black;   
-}
-
-.header--main {
-    color: black;
-    font-size: 40;
-    font-weight: normal;
-    text-align: right;
-    
-}
-
 #orientation {
-    color: blue;
-    
+    color: blue;   
 }
 
 #campus {
-   color: blue;
-   
+   color: blue; 
 
 }
-
 
 #guest {
-    color: blue;
-    
-}
-
-.link--cta {
-    font-size: 16px;
-    color: black;
-    float: right;
-    
+    color: blue;   
 }
 
 .footer--copyright {
+    text-align: right;   
     font-size: 21px;
-    color: gray;
-    text-align: right;
-    
+    color: dimgray;
 }
+
